@@ -1,9 +1,9 @@
 /*Customs font*/
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   margin: 0;
-  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 /* alert_banner */
@@ -19,6 +19,7 @@ body {
 }
 
 .nav-section {
+  font-family: 'Times New Roman', Times, serif;
   width: 100%;
   height: 100px;
   background-color: #6a6a6a;
@@ -32,6 +33,7 @@ body {
 }
 
 .nav-menu {
+  font-family: 'Times New Roman', Times, serif;
   float: right;
   padding-right: 200px;
   padding-top: 35px;
@@ -47,6 +49,7 @@ a {
 }
 
 .purchase-form-section {
+  font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
   width: 80%;
   height: 250px;
@@ -68,6 +71,7 @@ fieldset {
 }
 
 select {
+  font-family: 'Times New Roman', Times, serif;
   width: 250px;
   padding-left: 10px;
   font-size: 16px;
@@ -77,6 +81,7 @@ select {
 }
 
 .input-date {
+  font-family: 'Times New Roman', Times, serif;
   width: 200px;
   padding-left: 10px;
   font-size: 16px;
@@ -86,6 +91,7 @@ select {
 }
 .input-num,
 #buy {
+  font-family: 'Times New Roman', Times, serif;
   width: 80px;
   padding-left: 10px;
   font-size: 16px;
@@ -95,6 +101,7 @@ select {
 }
 #buy {
   margin-left: 20px;
+  background: #8CC63F;
 }
 
 label {
@@ -112,6 +119,8 @@ label {
   height: 400px;
   margin-left: 10px;
   margin-right: 10px;
+  border-radius: 10px;
+  z-index: -1;
 }
 figcaption {
   margin-left: 10px;
@@ -121,10 +130,12 @@ figure {
 }
 
 .dot-container{
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
 }
 
 .dot {
+  font-family: 'Times New Roman', Times, serif;
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -140,6 +151,7 @@ figure {
 }
 
 .description-container{
+  font-family: 'Times New Roman', Times, serif;
   display: grid;
   grid-template-columns: auto auto auto;
   height: 35vh;
@@ -149,6 +161,7 @@ figure {
 }
 
 .description-item{
+  font-family: 'Times New Roman', Times, serif;
   width: 25vw;
   margin-left: auto;
   margin-right: auto;
@@ -204,11 +217,13 @@ object {
   align-items: center;
 }
 .faq-question-container h3 {
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   padding-left: 30px;
 }
 
 .faq-answer-container {
+  font-family: 'Times New Roman', Times, serif;
   width: 40%;
   margin: 30px;
   margin-left: 150px;
@@ -218,6 +233,7 @@ object {
 }
 
 .faq-contact-container {
+  font-family: 'Times New Roman', Times, serif;
   width: 30%;
   height: 65vh;
   position: absolute;
@@ -225,6 +241,7 @@ object {
   right: 10vw;
 }
 .faq-contact-container input {
+  font-family: 'Times New Roman', Times, serif;
   border: 1px solid #ccc;
   background-color: #c4c4c4;
   border-radius: 20px;
@@ -246,6 +263,7 @@ object {
 }
 
 .faq-contact-container textarea {
+  font-family: 'Times New Roman', Times, serif;
   height: 350px;
   background-color: #c4c4c4;
   border: 1px solid #ccc;
@@ -273,6 +291,7 @@ object {
 
 
 footer{
+  font-family: 'Times New Roman', Times, serif;
   width: 100%;
   background-color: #6a6a6a;
   bottom:0;
