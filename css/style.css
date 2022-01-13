@@ -6,6 +6,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* hover effect for buttons */
+.button {
+  opacity: .6;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
 /* alert_banner */
 #banner {
   width: 100%;
@@ -53,7 +63,7 @@ a {
   border-radius: 10px;
   width: 80%;
   height: 250px;
-  background-color: #c4c4c4;
+  background-color: rgba(84, 110, 221, 100);
   margin-top: 20px;
   margin-left: 10%;
   text-align: center;
