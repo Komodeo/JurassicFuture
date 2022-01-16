@@ -185,6 +185,7 @@ figure {
 .direction-container {
   display: flex;
   align-items: center;
+
 }
 
 .direction-box {
@@ -200,6 +201,28 @@ hr {
   height: 1px;
   background-color: whitesmoke;
   border: none;
+}
+
+#travel {
+  position: absolute;
+  z-index: 1;
+  left: 80vw;
+  animation-name: travelAnimation;
+  animation-duration: 4s;
+}
+
+@keyframes travelAnimation {
+  0%{
+    transform: translateX(-80vw);
+  }
+
+  50% {
+    transform: translateX(5vw);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .direction-logo {
