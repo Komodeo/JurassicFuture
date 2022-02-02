@@ -204,11 +204,17 @@ hr {
 }
 
 #travel {
+  width: 300px;
   position: absolute;
   z-index: 1;
   left: 80vw;
   animation-name: travelAnimation;
   animation-duration: 4s;
+}
+
+.map {
+  width:250px;
+  height: 250px;
 }
 
 @keyframes travelAnimation {
@@ -226,7 +232,13 @@ hr {
 }
 
 .direction-logo {
+  width: 80px;
+  height: 80px;
   margin-left: 40px;
+}
+.direction-logo object{
+  width: 80px;
+  height: 80px;
 }
 .map-logo {
   margin-left: 60px;

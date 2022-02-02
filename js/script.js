@@ -37,13 +37,12 @@ function rightArrow() {
 window.onload = changeImg;
 //----------------------------------------------
 
-//Ticket Form Validation
 
-
-//Silder dot
+//Silder dot------------------------------------
 function resetDot() {
   var dots = document.getElementsByClassName("dot");
   for (var i = 0; i < dots.length; i++) {
       dots[i].style.backgroundColor="#bbb";
   }
 }
+//----------------------------------------------
